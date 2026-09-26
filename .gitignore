@@ -1,0 +1,14 @@
+# secrets - NEVER upload 
+.env
+
+# virtual environment - too big, rebuilt from requirements.txt 
+.venv/ 
+
+# Python cache 
+__pycache__/ 
+*.pyc 
+
+# runtime output 
+logs/ 
+data/audit_log.jsonl 
+conversation_*.json
