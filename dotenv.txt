@@ -1,0 +1,23 @@
+# Copy this file to ".env" and put your real key in it.
+# The .env file should NEVER be committed to git.
+
+ANTHROPIC_API_KEY=sk-or-v1-.........
+
+END_POINT= 'https://openrouter.ai/api'
+
+
+# The model to use. If you get a "model not found" error,
+# run:  python check_setup.py   -- it will list the models your key can use.
+#CLAUDE_MODEL=claude-sonnet-4-6
+CLAUDE_MODEL='anthropic/claude-sonnet-4-6'
+
+# Set to true to run the whole project WITHOUT calling Claude at all.
+# Useful for testing the plumbing, or if your key stops working mid-demo.
+USE_MOCK=true
+
+# Ports (only change if something else is already using them)
+AGENT1_PORT=8101
+AGENT2_PORT=8102
+AGENT3_PORT=8103
+AGENT4_PORT=8104
+GATEWAY_PORT=8000
